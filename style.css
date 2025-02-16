@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body{
+  font-size: 10px;
+  font-family: "Roboto", serif;
+}
+div{
+  margin-bottom: 7rem;
+}
+/* Fonts */
+.header_secondary, span{
+  font-weight: bold;
+  color: #44BBA4;
+}
+.header_primary, .skill_text{
+  color: #fff;
+}
+.header_primary{
+font-size: 3.2rem;
+font-family: "Ribeye", serif;
+}
+
+.header_secondary{
+  font-size: 2.4rem;
+  text-align: center;
+}
+.description_text, .skill_text{
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+  word-spacing: 1.2px;
+  letter-spacing: 1px;
+}
+.description_text{
+  width: 50%;
+}
+.img_description{
+  font-size: 1rem;
+}
+.img_description, .end_text{
+  text-align: center;
+  font-weight: bold;
+}
+.end_text{
+  color:#fff;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+/* Section hero */
+.hero{
+  background: url(./Img/Background.jpg )no-repeat center;
+  background-size: cover;
+}
+.headings{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+flex-direction: column;
+}
+
+/* section-description */
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2rem;
+}
+.profile{
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+
+}
+/* section-my-skills */
+.my_skills{
+  background-color: #D0CBEC;
+  height: auto;
+}
+.my_skills>.header_secondary{
+  padding-top: 3rem;
+}
+.skill_box{
+  margin-top: 4rem;
+  display: grid;
+  padding:0 2rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20%;
+  row-gap: 20%;
+}
+.illustration{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  margin-bottom: 0px;
+}
+.skill_img{
+  height:40vh;
+  width: auto;
+}
+/* footer */
+.footer{
+  margin-top:-7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.btn{
+  margin-top: 3rem;
+display: flex;
+gap: 20%;
+justify-content: center;
+}
+.contact_btn{
+  background-color: #D0CBEC;
+  text-align: center;
+  width: auto;
+}
+.contact_btn, .footer_btn{
+  text-decoration: none;
+  color:#fff;
+  font-size: 1.4rem;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow:2px 2px 3px #000000a4;
+}
+.footer_btn{
+  font-size: 1.4rem;
+  background-color: #44BBA4;
+  color:#fff;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow:2px 2px 3px #000000a4;
+}
